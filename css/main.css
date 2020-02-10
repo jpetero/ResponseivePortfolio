@@ -218,9 +218,9 @@ main .icons a:hover {
 main#home {
   overflow: hidden;
 }
-main#home h1 {
-  margin-top: 20vh;
-}
+/* main#home h1 {
+  margin-top: 5vh;
+} */
 
 /* Styling the about us section */
 .about-info {
@@ -231,6 +231,7 @@ main#home h1 {
 }
 .about-info .bio-image {
   grid-area: bioimage;
+  height: 500px;
   margin: auto;
   border-radius: 50%;
   border: #eece1a 3px solid;
